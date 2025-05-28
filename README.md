@@ -45,6 +45,23 @@ Use these commands inside Telegram:
 
 /history - View all your tasks, including completed ones
 
+## Data Base Structure
+
+### Users Table:
+user_id, 
+username,
+last_login
+
+### Tasks Table: 
+task_id, 
+user_id, 
+title, 
+description, 
+category, 
+due_date, 
+reminder_time, 
+•status
+
 ## Contributing
 
 Feel free to open issues or submit pull requests to improve the bot.
